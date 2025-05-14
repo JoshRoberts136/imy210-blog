@@ -1,4 +1,4 @@
-<!-- Name: Your Name, Student Number: Your Student Number -->
+<!-- Josh Roberts, u23536765-->
 <template>
   <div>
     <NuxtPage />
