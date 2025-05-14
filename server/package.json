@@ -1,42 +1,29 @@
 {
-  "name": "server",
+  "name": "imy210-blog-server",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
   "scripts": {
     "build": "strapi build",
-    "console": "strapi console",
-    "deploy": "strapi deploy",
-    "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi",
-    "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "^4.25.22",
-    "@strapi/plugin-users-permissions": "^4.12.0",
+    "@strapi/plugin-i18n": "^4.25.22",
+    "@strapi/plugin-users-permissions": "^4.25.22",
     "@strapi/strapi": "^4.25.22",
     "better-sqlite3": "11.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "strapi": "^3.6.11",
-    "styled-components": "^6.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "engines": {
-    "node": ">=18.0.0 <=22.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "15777f2a-53cf-4805-ab39-8fde52206535",
-    "installId": "bb04c64356d7623eacc28f3cc2a05a3439950b2c04f2762850d71ca9ae81e61b"
+    "uuid": "15777f2a-53cf-4805-ab39-8fde52206535"
   }
 }

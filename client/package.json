@@ -1,7 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "imy210-blog-client",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -11,12 +10,13 @@
   },
   "dependencies": {
     "axios": "^1.9.0",
-    "marked": "^15.0.11",
     "nuxt": "^3.12.4",
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.14.0"
+    "@nuxt/typescript-build": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "typescript": "^5.8.3"
   }
 }
